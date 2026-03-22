@@ -1,3 +1,6 @@
+#I acknowledge the use of
+#Microsoft Copilot (version GPT-4, Microsoft, https://copilot.microsoft.com/)
+#to create the code in this file
 import tkinter as tk
 import random
 

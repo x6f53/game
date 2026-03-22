@@ -1,12 +1,11 @@
 import random
 
 number = random.randint(1, 5)
-
+attempts = 0
 while True:
-    guess = int(input("Guess a number between 1 and 5: "))
+    guess = int(input("Guess a number: "))
+    attempts += 1
     
     if guess == number:
-        print("Correct!")
+        print("Correct! Attempts:", attempts)
         break
-    else:
-        print("Try again")
